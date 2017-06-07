@@ -1,0 +1,213 @@
+
+body{
+top:5px;
+right:20px;
+bottom:5px;
+left:20px;
+width:86%;
+height:100%;
+margin:auto;
+font-family:Arial;
+background-image:url("greenimg1.jpg");
+background-color:white;
+}
+#header{
+	border:1px solid black;
+	height:215px;
+	width:100%;
+}
+#header #nav{
+	margin-top:05px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:black;
+}
+
+#search li {
+        float:middle;
+		width:50%;
+}
+li {
+    float: left;
+}
+
+#header #search{
+	margin-top:10px;
+	
+	 background-color:black;
+	 	width:80%;
+	 
+}
+#header #search #input_search{
+
+	width:80%;
+}
+
+#search ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float:middle;
+	overflow: hidden;
+    background-color:black;
+}
+
+
+
+
+
+li a {
+    display: block;
+    color:green;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color:white;
+}
+
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: 15%;
+}
+
+div.desc {
+    padding: 05px;
+    text-align: center;
+}
+
+#header #search{width:100%}
+.search_btn{
+    width: 40%;
+	height:20%;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+#wrapper{
+	border:1px solid black;
+	height:1474px;
+	width:100%;
+	
+}
+#middle{
+	margin-top:300px;
+    border:1px solid black;
+	height:1150px;
+	
+	}
+#footer{
+height:20px;
+border:1px solid black;
+text-align:center;
+}	
+
+/* Bordered form */
+form {
+    border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password],input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+ input[type=textarea]{
+    width: 100%;
+	height:10%;
+    padding: 20px 20px 80px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+ul.products li {
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Set a style for all buttons */
+input[type=submit]{
+	background-color: #4CAF50;
+    color: pink;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+    width: 30%;
+    border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
+

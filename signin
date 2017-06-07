@@ -1,0 +1,63 @@
+<html>
+<head>
+<title>
+Welcome
+</title>
+<meta name="description" content="Online grocery shopping"/>
+<meta name="keywords" content="vegetables, fruits, pulses"/>
+<meta name="auther" content="snk"/>
+<link rel="stylesheet" href="style1.css" type="text/css"/>
+</head>
+<body>
+<div id="header">
+<img src="gr1.jpeg" class="img-rounded" alt="Store" width="1160" height="400"> 
+  <div id="nav">
+    <ul>
+	<li><a href="#">Home</a></li>
+	<li><a href="#">Vegetables</a></li>
+	<li><a href="#">Fruits</a></li>
+    <li><a href="#">Grains</a></li>
+	
+	
+	<li  style="float:right"><a href="#">Contact Us</a></li>
+	<li style="float:right"><a href="#" class="btn1 btn4 btn-1 btn1-1b">Cart</a></li>
+	<li style="float:right"><a href="#">SignUp</a></li>
+	<li style="float:right"><a href="#">Login</a></li>
+   </ul>
+ </div>
+  <div id="search">
+   <ul>
+    <li><input type="text" class="input_search" placeholder="Search anything" name="item"></li>
+
+	<li style="float:right"><button type="submit" class="search_btn">Search</button></li>
+    </ul>
+  </div>
+</div>
+<div id="wrapper">
+ <div id="middle">
+ <form action="action_page.php">
+  <div class="imgcontainer">
+    <img src="avatar.png" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="container">
+    <label><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit">Login</button>
+    <input type="checkbox" checked="checked"> Remember me
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
+</div>
+<div id="footer">2017 Final project.All Rights reserved </div>
+</div>
+</body>
+</html>
